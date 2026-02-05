@@ -1,0 +1,10 @@
+ipython
+ipdb
+sdb
+pip-tools
+pytest
+pytest-order
+httpx
+flake8
+-r requirements.txt
+uvicorn[standard]

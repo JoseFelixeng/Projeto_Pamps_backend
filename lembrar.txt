@@ -1,0 +1,7 @@
+Antes de Tudo para funcionar corretamente e necessario rodar  o :
+
+docker-compose down -v --remove-orphans
+docker-compose up --build # pois a nova versão não consegui rodar apenas com esse comando é necessario primeiro remover
+
+
+isso para com que rodemos o conteiner. 

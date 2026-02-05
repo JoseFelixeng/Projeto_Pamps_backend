@@ -1,28 +1,130 @@
-# Angular specific
-/dist/
-/out-tsc/
-/tmp/
-/coverage/
-/e2e/test-output/
-/.angular/
-.angular/
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
 
-# Node modules and dependency files
-/node_modules/
-/package-lock.json
-/yarn.lock
+# ===============================
+# Virtual environments
+# ===============================
+.venv/
+venv/
+env/
+ENV/
+.python-version
 
-# Environment files
-/.env
+# ===============================
+# Environment variables / secrets
+# ===============================
+.env
+.env.*
+*.env
+secrets/
+*.key
+*.pem
 
-# Angular CLI and build artefacts
-/.angular-cli.json
-/.ng/
+# ===============================
+# Database
+# ===============================
+*.db
+*.sqlite3
+*.sqlite
+postgres_data/
+pgdata/
 
-# TypeScript cache
-*.tsbuildinfo
+# ===============================
+# Alembic
+# ===============================
+alembic.ini.backup
+migrations/versions/*.pyc
+migrations/versions/__pycache__/
 
+# ===============================
 # Logs
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# ===============================
+*.log
+logs/
+*.out
+
+# ===============================
+# Pytest
+# ===============================
+.pytest_cache/
+.coverage
+htmlcov/
+.cache/
+
+# ===============================
+# MyPy / Ruff / Lint
+# ===============================
+.mypy_cache/
+.ruff_cache/
+.dmypy.json
+.pyre/
+
+# ===============================
+# IDEs / Editors
+# ===============================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ===============================
+# OS Files
+# ===============================
+.DS_Store
+Thumbs.db
+
+# ===============================
+# Docker
+# ===============================
+docker-compose.override.yml
+*.tar
+*.pid
+
+# volumes locais
+data/
+tmp/
+
+# ===============================
+# Coverage
+# ===============================
+coverage.xml
+
+# ===============================
+# Jupyter / notebooks (se usar)
+# ===============================
+.ipynb_checkpoints/
+
+# ===============================
+# Temporary
+# ===============================
+tmp/
+temp/
+.cache/
+
+# ===============================
+# Test database dumps
+# ===============================
+*_test.sql
+*_backup.sql
+
