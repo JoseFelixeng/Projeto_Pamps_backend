@@ -128,3 +128,7 @@ temp/
 *_test.sql
 *_backup.sql
 
+
+*.pdf
+*.txt
+
